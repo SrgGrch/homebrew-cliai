@@ -1,25 +1,25 @@
 class Cliai < Formula
   desc "The cliai application"
   homepage "https://github.com/SrgGrch/CLIAI"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.5/cliai-aarch64-apple-darwin.tar.xz"
-      sha256 "e993893fce02ea77b1bb585f490eef1ffb524d05be22edde576cb0eff49226b3"
+      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.6/cliai-aarch64-apple-darwin.tar.xz"
+      sha256 "55677d0811d41a120e1c114136f8f300905a1842be467e0a45703e46d7ae1383"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.5/cliai-x86_64-apple-darwin.tar.xz"
-      sha256 "597f77a3e1470024bf31ce8b46066f4171986914fe2517e2f28d25dee42e2931"
+      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.6/cliai-x86_64-apple-darwin.tar.xz"
+      sha256 "3d6ed9e84d8cb53270602602e09d8b9945eeb5fdc5adbd4d935bb6104b89cf77"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.5/cliai-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c6c8ed85c007abba05fd77e7345985fd27cd0eaed0e1372dc2bd7b647c518c4b"
+      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.6/cliai-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e94312f934bc9a279da687f76458657bb9a04ccdc4726a9bedf51057a77e6438"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.5/cliai-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9bbdc2a3fa2d7d21fd8368c5d3f7d4b4e4cc5bd4cdb51e426eeeb76878ab5aa5"
+      url "https://github.com/SrgGrch/CLIAI/releases/download/v0.1.6/cliai-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4cbde8b8cf7633d926a7405eb087da7ffe98742a803eef94dc2e2ad23e835b3c"
     end
   end
 
